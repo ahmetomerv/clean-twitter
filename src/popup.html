@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="main-title">Clean Twitter</h1>
+
+            <p class="main-description">Filter unwanted Tweets from your timeline.</p>
+            
+            <div class="options-container">
+                <div class="checkbox-option">
+                    <label for="removeTweetCheckbox">Retweets</label>
+                    <label class="checkbox">
+                        <input id="removeTweetCheckbox" name="removeRetweet" class="checkbox__input" type="checkbox">
+                        <svg class="checkbox__check" width="24" height="24">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </label>
+                </div>
+                <div class="checkbox-option">
+                    <label for="removeLikedTweetCheckbox">Liked Tweets</label>
+                    <label class="checkbox">
+                        <input id="removeLikedTweetCheckbox" name="removeLikedTweet" class="checkbox__input" type="checkbox">
+                        <svg class="checkbox__check" width="24" height="24">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </label>
+                </div>
+                <div class="checkbox-option">
+                    <label for="removeReplyTweetCheckbox">Reply Tweets</label>
+                    <label class="checkbox">
+                        <input id="removeReplyTweetCheckbox" name="removeReplyTweet" class="checkbox__input" type="checkbox">
+                        <svg class="checkbox__check" width="24" height="24">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/ahmetomerv/clean-twitter">GitHub</a>
+                <a href="https://twitter.com/ahmetomerv">Twitter</a>
+            </div>
+        </div>
+        <script src="scripts/popup.js"></script>
+    </body>
+</html>
