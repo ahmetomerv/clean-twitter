@@ -3,9 +3,9 @@ A browser extension to remove the unwanted Tweets from your timeline, such as Li
 
 ### To install and use it in your local machine:
 
-- `$ git clone https://github.com/ahmetomerv/twitter-received-reply-remover.git`
+- `$ git clone https://github.com/ahmetomerv/clean-twitter.git`
 
-- `$ cd twitter-received-reply-remover`
+- `$ cd clean-twitter`
 
 - `$ npm install`
 
@@ -25,7 +25,7 @@ A browser extension to remove the unwanted Tweets from your timeline, such as Li
 
 - Click "Load unpacked"
 
-- Select the `build/chrome` folder in `twitter-received-reply-remover` project folder
+- Select the `build/chrome` folder in `clean-twitter` project folder
 
 ---
 [MIT License](https://opensource.org/licenses/MIT)
