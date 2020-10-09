@@ -1,7 +1,7 @@
 let cleanTwitterState = {
-   removeReplyTweets: true,
-   removeRetweets: true,
-   removeLikedTweets: true,
+   removeRetweet: true,
+   removeLikedTweet: true,
+   removeReplyTweet: true,
 }
 
 window.addEventListener('load', () => {
